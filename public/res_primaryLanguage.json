@@ -1,48 +1,49 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description_header": "Hello",
+      "description": "Experienced Data Collector with a demonstrated history of working in the information technology and services industry. Skilled in HTML, Data Analytics, Teamwork, Bootstrap, and Cascading Style Sheets (CSS). Strong accounting professional with a Bachelor's degree focused in Business, Management, Marketing, and Related Support Services from University of Washington. An innovative problem-solver passionate about developing apps, my current focus is on development and security. Since completing the bootcamp, I have continued my studies independently to learn more about server-back end functions and data storage.",
       "section_name": {
         "about": "About me",
-        "projects": "Projects",
+        "projeddcts": "Projects",
         "skills": "Skills",
         "experience": "Experience"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Puzzled",
+        "startDate": "2022",
+        "description": "A website designed for users to create, manage, and solve puzzles. The project was built with the collaboration of my team members and culminations of skills developed throughout the bootcamp. It has a authentication and user profile creation system that allows users to securely manage their uploaded puzzles or puzzles they have favorited from other users.",
         "images": [
           "images/portfolio/animal-shelter/p1.jpg",
           "images/portfolio/animal-shelter/p2.jpg"
         ],
-        "url": "",
+        "url": "https://github.com/mrhappywaves/puzzled",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-original",
+            "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "name": "Git",
+            "class": "devicon-git-plain",
+            "level": "70"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Cookify",
+        "startDate": "2022",
+        "description": "A website designed with two API’s incorporated to fill the fundamental usage that if a user desires to use a specific recipe, they can use the site to find the ingredients in their local store under the Kroger umbrella.",
         "images": [
           "images/portfolio/photography/p1.jpg",
           "images/portfolio/photography/p2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/jennyrae818/Cookify",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -55,14 +56,14 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "DEVxp",
+        "startDate": "2022",
+        "description": "An interactive learning platform that provides a space for new and experienced coders to practice and develop coding skills. The website currently provides notecards and prompts the user with multiple choice questions related to the topic of their choosing. In future development the website will integrate a leveling system to track the user’s experience and reflect their knowledge.",
         "images": [
           "images/portfolio/adventure/p1.jpg",
           "images/portfolio/adventure/p2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/mrhappywaves/cheat-dev",
         "technologies": [
           {
             "class": "devicon-angularjs-plain",
@@ -81,37 +82,57 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Qanalysts",
+        "title": "QA Specialist",
+        "years": "02.2022 - Current",
         "mainTech": [
-          "Angular 8/9/10"
+          "Quality Assurance, Project Management"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Leadership",
+          "Organizational and Planning",
+          "Communication",
+          "Problem-solving",
+          "Knowledge of quality standards",
+          "Track areas of concern",
+          "Schedule time for checks"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Boiling Point",
+        "title": "Cook",
+        "years": "11.2016 - 02.2022",
         "mainTech": [
-          "Angular 7/8"
+          "Soldiity"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Soldiity",
+          "Hardhat",
+          "Typescript",
+          "Javascript",
+          "React"
+        ]
+      },
+      {
+        "company": "Simpli.fi",
+        "title": "AdOps Technical Lead",
+        "years": "06.2015 - present",
+        "mainTech": [
+          "Python"
+        ],
+        "technologies": [
+          "Python",
+          "Postgres",
+          "PySpark",
+          "Business Analytics",
+          "Ruby",
+          "Javascript",
+          "Vue",
+          "Chef",
+          "Linux/Bash",
+          "Kafka",
+          "Redis",
+          "Hadoop"
         ]
       }
     ]

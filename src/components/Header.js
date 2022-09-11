@@ -3,7 +3,7 @@ import Typical from "react-typical";
 import Switch from "react-switch";
 
 class Header extends Component {
-  titles = ['FRONT-END WEB DEVELOPER','QUALITY ASSURANCE SPECIALIST'];
+  titles = [];
 
   constructor() {
     super();
@@ -43,7 +43,6 @@ class Header extends Component {
               <br/>
               <h1 className="mb-0">
                 <Typical steps={[name]} wrapper="p" />
-                William Cho
               </h1>
               <div className="title-container">
                 <HeaderTitleTypeAnimation />

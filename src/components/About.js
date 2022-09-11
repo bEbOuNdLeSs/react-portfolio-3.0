@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
 import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
+import mernIcon from "@iconify/icons-logos/mern";
+import jsIcon from "@iconify/icons-logos/javascript";
 
 class About extends Component {
   render() {
@@ -26,20 +26,21 @@ class About extends Component {
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
                   <img
-                    height="250px"
+                    height="350px"
+                    width="350px"
                     src={profilepic}
                     alt="Avatar placeholder"
-                  />
-                  <Icon
-                    icon={angularIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
                     icon={reactIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={vueIcon}
+                    icon={mernIcon}
+                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                  />
+                  <Icon
+                    icon={jsIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                 </span>
@@ -77,11 +78,7 @@ class About extends Component {
                     }}
                   >
                     <br />
-                    <span className="wave">{hello} Experienced Data Collector with a demonstrated history of working in the information technology and services industry. Skilled in HTML, Data Analytics, Teamwork, Bootstrap, and Cascading Style Sheets (CSS). Strong accounting professional with a Bachelor's degree focused in Business, Management, Marketing, and Related Support Services from University of Washington. 
-                    <br />
-                    <br />
-                    An innovative problem-solver passionate about developing apps, my current focus is on development and security. Since completing the bootcamp, I have continued my studies independently to learn more about server-back end functions and data storage.
-                    </span>
+                    <span className="wave">{hello}!</span>
                     <br />
                     <br />
                     {about}
